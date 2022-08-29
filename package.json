@@ -1,0 +1,19 @@
+{
+  "name": "sonnys-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "0-import-export.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Abhirup Bardhan <bardhan.abhirup@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.29.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
