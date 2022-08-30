@@ -1,0 +1,78 @@
+async function serveFile(filePath, contentType, response){
+	try {
+		fs.readFile(
+			filePath, 
+			//check contentType includes 'image' 
+				'' : utf-8, 
+			(err, data) => {
+			on err, throw err
+			response.statusCode
+				check if filepath includes 404.html ? 404 : 200;
+			response.setHeaders('Content-Type', contentType);
+
+			OR
+
+			response.writeHead(200, {'Content-Type': contentType})
+
+			response.end(
+				if contentType === application/json 
+					json.stringify data : data
+					);
+		})
+	}catch err{
+		log err
+		emit error logs to error-log file
+		response.statusCode(500)
+		response.end()
+	}
+}
+
+//create a server
+
+	//check extension using path.extname(req.url)
+	//emit events for custom logger
+
+	switch(extension)
+		//check for all expented filetypes served
+			.css
+				contentType = text/css
+			.js
+				contentType = text/javascript
+			.json
+				contentType = application/json
+			.png
+				contentType = image/png
+			.jpg
+				contentType = image/jpg
+			.txt
+				contentType = text/plain
+			default:
+				contentType = text/html
+
+		if contentType is text/html 
+				if url is /
+					set path to dir/views/index.html
+				else if url ends with /
+					set path to dir/views/url/index.html
+				else
+					set path to dir/views/url
+		else
+				set path to dir/url
+		
+//makes the /html extension not mandatory for the user
+		if !extension specified AND last char is not /
+				filePath += .html
+
+			
+	at this stage we have filePath and extension
+
+	now we want to check the file exists
+			if(fs.existsSync)
+				serveFile(filePath, contentType, res);
+
+			else
+				//check file base to see if it was an old page
+					//if so, redirect to new page
+				default to 
+					404
+				serveFile(//path to 404 page, 'text/html', res);
