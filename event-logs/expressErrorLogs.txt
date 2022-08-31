@@ -1,0 +1,2 @@
+31-08-2022	12:55:58	7ce89689-1f9a-4ed5-b5f5-a8bf85828673	Error: Not allowed by CORS
+31-08-2022	12:55:58	07126df0-487c-407d-b260-afa79e127ae6	Error: Not allowed by CORS
