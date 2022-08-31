@@ -4,8 +4,8 @@
   "description": "",
   "main": "0-import-export.js",
   "scripts": {
-    "start": "node 7-server.js",
-    "dev": "nodemon 7-server.js"
+    "start": "node 9-express.js",
+    "dev": "nodemon 9-express.js"
   },
   "author": "Abhirup Bardhan <bardhan.abhirup@gmail.com>",
   "license": "MIT",
