@@ -15,7 +15,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.use(express.static(path.join(__dirname, '/public')));
+
+//routes
 app.use('/', require('./routes/root'));
+app.use('/register', require('./routes/register'));
 app.use('/employees', require('./routes/api/employees'));
 
 app.all('*', (req, res) => {
