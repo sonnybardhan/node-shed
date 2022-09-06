@@ -7,8 +7,6 @@ const {
   deleteEmployee,
   updateEmployee,
 } = require('../../controllers/employeeController');
-// const data = {};
-// data.employees = require('../../data/employees.json');
 
 router
   .route('/')

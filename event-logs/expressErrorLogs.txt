@@ -6,3 +6,4 @@
 01-09-2022	12:08:39	3e365a03-d30f-4cf3-80df-a7a6f3ddaff4	TypeError: Cannot set properties of undefined (setting 'firstName')
 01-09-2022	12:10:51	02b0cb58-a269-4b4b-a579-8dae6ef35080	Error: Cannot set headers after they are sent to the client
 01-09-2022	12:12:24	e7a7d8d5-41b1-4f58-9ee3-127b50739e49	Error: Cannot set headers after they are sent to the client
+05-09-2022	16:59:36	dea39efe-0232-4072-b611-880c30f697e7	TypeError: Cannot set properties of undefined (setting 'firstName')
